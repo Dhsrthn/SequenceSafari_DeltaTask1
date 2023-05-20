@@ -261,7 +261,6 @@ function generate(arr1,arr2){
       gameBoard.appendChild(foodadderelement)
     }
     for(let i=0;i<5;i++){
-      console.log(eatelement[i])
       if(eatelement[i]==2){
           sequencegen(seq[i],clone[i],0)
       }
@@ -315,7 +314,6 @@ function sequencegen(seq,n,a){
       }
       if(a==1){
         foodElement.style.backgroundColor="#ffffff"
-        console.log(a)
         break
       } 
       if(a==2){
