@@ -1,0 +1,190 @@
+body {
+    block-size: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #9a9ae9;
+}
+
+#gameboard {
+    margin-top: 5vmin;
+    width: 50vmin;
+    height: 50vmin;
+    display: grid;
+    background: #5ebcfa;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    box-shadow: #000000 20px 10px 50px;
+    justify-content: center;
+    font-size: fit-content(1fr);
+    text-align: center;
+}
+
+.gamedeets{
+    height:  10vmin;
+    color:rgb(85, 14, 14);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    font-size: 2.0rem;
+}
+
+.food1{
+    background-image: url('files/1.png');
+    background-size: 100%
+}
+.food2{
+    background-image: url('files/2.png');
+    background-size: 100%;
+}
+.food3{
+    background-image: url('files/3.png');
+    background-size: 100%;
+}
+.food4{
+    background-image: url('files/4.png');
+    background-size: 100%;
+}
+.food5{
+    background-image: url('files/5.png');
+    background-size: 100%;
+}
+
+.food6{
+    background-image: url('files/6.png');
+    background-size: 100%;
+}
+.food7{
+    background-image: url('files/7.png');
+    background-size: 100%;
+}
+.food8{
+    background-image: url('files/8.png');
+    background-size: 100%;
+}
+.food9{
+    background-image: url('files/9.png');
+    background-size: 100%;
+}
+.food10{
+    background-image: url('files/10.png');
+    background-size: 100%;
+}
+
+
+.head{
+    background-image: url('files/headsmall.png');
+    background-size: 100%;
+}
+.body{
+    background-image: url('files/bodysmall.png');
+    background-size: 100%;
+}
+
+.sequence{
+    font-size: 2.0rem;
+    margin-left: 10vmin;
+    display: flex;
+    margin-top: 5vmin;
+}
+
+#sequenceboard{
+    margin-top:10vmin;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);    
+    width: 20vmin;
+    height: 5vmin;
+}
+
+#leaderncontrol{
+    font-size: 2.0rem;
+    
+    width:30vmin;
+    padding: 1vmin;
+    display:flex;
+}
+
+.game{
+    display: flex;
+}
+
+.buttontop{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonmiddle{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonbottom{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    width: 5vmin;
+    height: 5vmin;
+    background-size: 100%;
+    border: none;
+}
+
+.buttons{
+    display:block;
+    margin-top: 3vmin;
+    margin-left: 7vmin;
+}
+
+@media only screen and (max-width: 600px){
+    .gamedeets{
+        font-size: 1.4rem;
+    }
+    #gameboard{
+        margin-top:30vmin;
+        margin-left: 3vmin;
+    }
+    .sequence{
+        position: absolute;
+        margin-left: 15vmin;
+    }
+    #leaderncontrol{
+        
+        font-size: 1.4rem
+    }
+    #highscorelist{
+        margin-top: 40vmin;
+        margin-left:10vmin;
+    }
+    #leader{
+        margin-top: 40vmin;
+        margin-left:10vmin;
+    }
+    #sequence{
+        font-size: 1.4rem;
+    }
+    .buttons{
+        position: absolute;
+        left:35vmin;
+        margin-top:10vmin
+    }
+
+    
+}
+
+@media only screen and (max-width: 300px){
+    .gamedeets{
+        font-size: 1.0rem;
+    }
+    #leaderncontrol{
+        font-size: 1.0rem
+    }
+    #sequence{
+        font-size: 1.0rem;
+    }
+
+
+}
