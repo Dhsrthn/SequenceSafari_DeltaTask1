@@ -23,7 +23,7 @@ function main(currentTime){
 
 if (gameover === 1){
     if (confirm('You lost press ok to restart')){
-      window.location ='/'
+      window.location.reload()
     }
     if(!hs.includes(Score)){
     hs.push(Score)
