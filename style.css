@@ -269,4 +269,12 @@ button{
 
     }
 
+    #opener{
+        height:5vmax;
+        width:5vmax;
+    }
+    .mysidenav .closebtn {
+       font-size: 5vmax;
+    }
+
 }
