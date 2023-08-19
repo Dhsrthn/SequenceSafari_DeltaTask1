@@ -1,2 +1,2 @@
-# snake_delta_normal
-https://dhsrthn.github.io/snake_delta_normal/
+#SequenceSafari
+https://dhsrthn.github.io/SequenceSafari_DeltaTask1/
